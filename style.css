@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(akbar-3.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    position: relative;
+    display: flex;
+}
+.logo{
+    color: white;
+    padding: 50px;
+    margin-left: 35px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+span{
+    color: #f9004d;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 25px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: .4s;
+
+}
+nav ul a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 55px;
+}
+h3{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfcfc;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.newsletter form{
+    width: 395px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 13px 125px 13px 12px;
+    border: solid #f9004d;
+    outline: none;
+    border-radius: 35px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px #000 0px 0px 15px #858585;
+    background: #f9004d;
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 130px 0;
+    background-color: #191919;
+
+}
+.about img{
+    width: auto;
+    height: 470px;
+
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+button{
+    background: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    color: #f9004d;
+    cursor: pointer;
+}
+.service{
+    width: 100%;
+    padding: 100px 0;
+    background: #101010;
+}
+.titel h2{
+    font-size: 75px;
+    width: 1200px;
+    margin: 25px auto;
+    text-align: center;
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.cart{
+    height: 365px;
+    width: 335px;
+    padding: 20px 37px;
+    background: #191919;
+    border-radius: 25px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.cart i{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.pragraph p{
+    color: #fcfc;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.cart .button{
+    background: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.cart .button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    color: #f9004d;
+    cursor: pointer;
+}
+.cotact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cotact-me p{
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.cotact-me .button-two{
+    background: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.cotact-me .button-two:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    color: #f9004d;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    font-size: 15px;
+    bottom: 30px;
+
+}
